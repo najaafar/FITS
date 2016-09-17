@@ -6,11 +6,27 @@ html{
   background-size: cover;
 }
 
+#header{
+		width: 150%;
+}
+
 #center{
-		background-color: blue;
-		width: 55%;
-		height: 45%;
-		position: center;
+		background-color: transparent;
+		display:inline-block;
+		float:none;
+	    text-align:left;
+		margin-right:-4px;
+		text-align:center;
+        margin-top: 15%;
+        margin-bottom:15%;
+        margin-left: 15%;
+        position: relative;
+        top: 100%;
+        border-radius: 25px;
+	    border: 2px solid;
+	    border-color: blue;
+	    padding: 20px;
+	    width: 75%;
 		
 }
 		
