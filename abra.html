@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="./css/harrdec.css"> 
 
+   <link rel="stylesheet" href="./css/harrdec.css"> 
 </head>
 <body>
   <!-- Dropdown Structure -->
@@ -43,23 +43,53 @@
   </nav>
   
   <div class="row center" id="center_div">
-    <div class="left left-align" id="logo">
-      <img src="./images/harrdec.png">
+    <div class="left left-align" id="fit_details">
+     <p><h3 class="red-text">FITS PLGU Abra</h3></p>
+              
+           <p>   Consortium:   HARRDEC
+              Base Agency:  LGU
+           
+              Center Profile
+           
+              Address:  , Calaba , Bangued, Abra
+              Region:   Cordillera Administrative Region
+              Tel.No.   none
+              Cel. No.  +639067486249
+              Fax.No.   +63747525390
+              E-Mail:   hmalyne@yahoo.com
+               
+              Focus Commodity
+              
+          No available records
+           
+              
+          Manager:
+            
+          Mr. Jesus Jr. Villamor
+           
+              
+          Staff
+            Name  Designation
+          1       Ms. Flora Barbero   Technology Service Specialist
+          2       Ms. Hermina Bolaoit   Information Service Specialist</p>
+
     </div>
-    <div class="right right-align" id="details">
-      <p><h3 class="red-text">Highland Agriculture and Resources Research and Development Consortium (HARRDC)</h3></p>
-      <table>
-        <tr>
-         <td><a href="#">FITS MLGU La Trinidad</a></td>
-        </tr>
-        <tr>
-          <td><a href="#">FITS BPI Baguio City</a></td>
-        </tr>
-        <tr>
-          <td><a href="abra.html">FITS PLGU Abra</a></td>
-        </tr>
-      </table>
+    <div class="right right-align" id="map">
     </div>
+
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 44.540, lng: -78.546},
+            zoom: 8
+        });
+      }
+    </script>
+     
+
+
+      
   </div>
 
 
