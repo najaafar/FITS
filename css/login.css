@@ -1,3 +1,11 @@
+html{
+	background: url(../images/farming.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #center{
 		background-color: blue;
 		width: 55%;
