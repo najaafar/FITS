@@ -7,7 +7,13 @@ html{
 }
 
 #header{
-		width: 150%;
+	background-color: white;
+	margin: 0;
+	float: right;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	overflow: hidden;
 }
 
 #center{
@@ -28,5 +34,17 @@ html{
 	    padding: 20px;
 	    width: 75%;
 		
+}
+
+#footer{
+	top: 90%;
+	height: 5%;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	overflow: hidden;
 }
 		
