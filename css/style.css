@@ -11,6 +11,19 @@ nav .brand-logo {
   color: #444;
 }
 
+.fbanner {
+  height: 50px; 
+  line-height: 50px;
+}
+
+.sbanner {
+  height: 120px; 
+}
+
+.imgbanner {
+  margin: 30px;
+}
+
 p {
   line-height: 2rem;
 }
