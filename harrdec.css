@@ -1,0 +1,15 @@
+#center_div {
+	width: 100%;
+}
+#logo {
+	display: inline-block;
+	text-align: right;
+	width: 15%;
+}
+
+#details {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 85%;
+}
